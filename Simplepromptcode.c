@@ -6,7 +6,7 @@ Date:20/09/2025.
 Description:Trial simple prompt code that reads and displays inputed values.
 */
 
-# include <stdio.h> // pre-processor directive printf(),scanf()
+# include <stdio.h> // Pre-processor directive printf(),scanf()
 
 int main () {
 	float Height;
@@ -16,15 +16,15 @@ int main () {
 	//prompt and read values.
 	
 	//Height values.
-	printf("Enter your height (in meters):");
+	printf("Enter your height (Meters):");
 	scanf("%f", &Height);
 	
 	//Bank Balance values.
-	printf("Enter your Bank Balance (in Ksh) ");
+	printf("Enter your Bank Balance (Ksh) ");
 	scanf("%lf", &Bank_Balance);
 	
 	//Phone number values.
-	printf("Enter your Phone Number (in +2547xxxxxxxx)");
+	printf("Enter your Phone Number (+2547xxxxxxxx)");
 	scanf("%s", &Phone_Number);
 	
 	//Display entered values.
@@ -39,8 +39,9 @@ int main () {
 	printf("BankBalance:KSh%.2lf\n", Bank_Balance);   //2 decimal place 
 
 	//Phone Number displayed values.
-	printf("PhoneNumber: +2547%s\n", Phone_Number);
+	printf("PhoneNumber: (+254)7%s\n", Phone_Number);
 	
 	return 0;
 }
+
 
