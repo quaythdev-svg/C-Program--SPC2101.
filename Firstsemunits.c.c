@@ -10,7 +10,7 @@ Description:My First Semester Units.
 
 int main () {
     printf("  FIRST SEMESTER UNITS   \n");
-    printf("1.Analogue Electroniics.\n");
+    printf("1.Analogue Electronics.\n");
     printf("2.Discrete Mathematics.\n");
     printf("3.Fundamentals of ICT.\n");
     printf("4.Introduction to Computer Architecture.\n");
@@ -20,4 +20,5 @@ int main () {
     printf("8.Communication and information Literacy Skills.\n");
     
     return 0;
+
 }
