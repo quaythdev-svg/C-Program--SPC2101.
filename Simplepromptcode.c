@@ -25,7 +25,7 @@ int main () {
 	
 	//Phone number values.
 	printf("Enter your Phone Number (+2547xxxxxxxx)");
-	scanf("%s", &Phone_Number);
+	scanf("%s", Phone_Number);
 	
 	//Display entered values.
 	
@@ -43,5 +43,6 @@ int main () {
 	
 	return 0;
 }
+
 
 
