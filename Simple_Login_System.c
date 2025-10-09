@@ -7,7 +7,7 @@ Description:The program uses a do-while loop to repeatedly prompt the user for a
 */
 
 #include <stdio.h> //Pre Processor Directive printf(),scanf()
-#include <strings.h> //For string comparison using strcmp.
+#include <string.h> //For string comparison using strcmp.
 
 int main(){
 	char Password[20];//stores entered password.
@@ -24,4 +24,5 @@ int main(){
 	printf("Access Granted.\n"); //only outputted when the password is correct
 	
 	return 0;
+
 }
