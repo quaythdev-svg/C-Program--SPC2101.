@@ -10,8 +10,10 @@ Description:For Loop for decending order of numbers.
 
 int main() {
     int i;
-	for( i=100; i >=50;i--){
+	printf("100 to 50 in Descending Order.\n" );
+	for( i=100; i >=50;i--){  //descending order instructions. 
 		printf("%d\n", i);
 	}
 	return 0;
+
 }
