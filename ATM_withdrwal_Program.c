@@ -22,9 +22,10 @@ int main(){
 		scanf("%f",&Withdraw);
 		//Output
 		Balance -= Withdraw;
-		printf("Your Remainding Balance is:%.2f\n", Balance);
+		printf("Your Remainding Balance is:Ksh %.2f\n", Balance);
 	}
 	//Output
 	printf("Your Balance Is Zero or Negative. Transaction Stopped.\n");
 	return 0;
+
 }
