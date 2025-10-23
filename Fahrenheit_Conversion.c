@@ -9,7 +9,7 @@ Description: Fahrenheit conversion to celsius.
 
 // Function to convert Fahrenheit to Celsius
 float convertToCelsius(float fahrenheit) {
-// Apply the conversion formula: (°F - 32) * 5/9
+// Apply the conversion formula: (Â°F - 32) * 5/9
 // Use 5.0 and 9.0 to ensure floating-point division
     return (fahrenheit - 32) * 5 / 9;
 }
@@ -20,7 +20,8 @@ int main() {
     scanf("%f", &fahrenheit);
 
     float celsius = convertToCelsius(fahrenheit);
-    printf("Temperature in Celsius: %.2f°C\n", celsius);
+    printf("Temperature in Celsius: %.2fC\n", celsius);
 
     return 0;
 }
+
